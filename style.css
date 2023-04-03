@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #413543;
+}
+nav ul{
+    margin-left: 800px;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
+    display: inline;
+    color: #F3E8FF;
+
+}
+nav{
+    height: 50px;
+    background-color: #454545;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FF6000; 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    color: #FFDEB4;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.hero{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 575px;
+    /* background-color: #413543; */
+    
+}
+
+.heroText{
+    /* border: 2px solid red; */
+    width: 50vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.heroText h1{
+    margin-top: 200px;
+    margin-left: auto;
+    color: #FFEA20;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.heroText h3{
+    margin-top: 40px;
+    margin-left: auto;
+    font-family: 'Oxygen', sans-serif;
+    /* color: #FF8B13; */
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+
+.heroImg{
+    /* border: 2px solid red; */
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+.heroImg img{
+    height: 75vh;
+    /* border-radius: 100%; */
+    display: block;
+    margin: 0 auto;
+}
+
