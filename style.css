@@ -87,3 +87,33 @@ nav ul li:hover{
     margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    nav ul {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    .heroText h1 {
+      margin-top: 50px;
+      font-size: 30px;
+    }
+  
+    .heroText h3 {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+  
+    .heroImg img {
+      height: auto;
+      width: 100%;
+    }
+  }
