@@ -112,6 +112,9 @@ nav ul li:hover{
       font-size: 16px;
     }
   
+    .heroImg{
+        height: auto;
+    }
     .heroImg img {
       height: auto;
       width: 100%;
