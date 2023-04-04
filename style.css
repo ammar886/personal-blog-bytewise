@@ -6,7 +6,7 @@ body{
     background-color: #413543;
 }
 nav ul{
-    margin-left: 800px;
+    margin-left: 700px;
 }
 
 nav ul li{
@@ -87,36 +87,130 @@ nav ul li:hover{
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
-    nav {
-      flex-direction: column;
-      height: auto;
-    }
-  
-    nav ul {
-      margin-top: 10px;
-      flex-direction: column;
-    }
-  
-    nav li {
-      margin: 10px 0;
-    }
-  
-    .heroText h1 {
-      margin-top: 50px;
-      font-size: 30px;
-    }
-  
-    .heroText h3 {
-      margin-top: 20px;
-      font-size: 16px;
-    }
-  
-    .heroImg{
-        height: auto;
-    }
-    .heroImg img {
-      height: auto;
-      width: 100%;
-    }
+.hero .button{
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+
+}
+
+.blog{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 575px;
+    background-color: #0B2447;
+    
+}
+
+.blog .blogcard-1{
+    /* border: 2px solid red; */
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+.blog .blogcard-1 .thumbnail{
+    padding: 20px;
+    border: 2px solid #B3E5BE;
+    border-radius: 16px;
+    background-color: #060047;
+    height: 62vh;
+    width: 40vw;
+    margin-left: 50px;
+    
+    
+
+}
+
+.blog .blogcard-1 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.blog .blogcard-1 .thumbnail h1{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #27E1C1;
+}
+
+.blog .blogcard-1 .thumbnail a{
+    text-decoration: none;
+    color: #FDD36A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+
+}
+
+.blog .blogcard-1 .thumbnail a:hover{
+    text-decoration: none;
+    color: #FF0303;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+
+}
+
+.blog .blogcard-2{
+    /* border: 2px solid red; */
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+.blog .blogcard-2 .thumbnail{
+    padding: 20px;
+    border: 2px solid #B3E5BE;
+    border-radius: 16px;
+    background-color: #060047;
+    height: 62vh;
+    width: 40vw;
+    margin-left: 50px;
+}
+
+.blog .blogcard-2 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.blog .blogcard-2 .thumbnail h1{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #27E1C1;
+}
+
+.blog .blogcard-2 .thumbnail a{
+    text-decoration: none;
+    color: #FDD36A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+
+}
+
+.blog .blogcard-2 .thumbnail a:hover{
+    text-decoration: none;
+    color: #FF0303;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #191825;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 30px;
   }
